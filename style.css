@@ -1,0 +1,112 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: pink;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: plum;
+    border-radius: 5px;
+}
+
+/* Main and Section Styling */
+main {
+    margin-top: 20px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main section h1, main section h2 {
+    color: #ff7171;
+    margin-bottom: 15px;
+}
+
+main section p {
+    color: #ff7171;
+}
+
+/* New Artikel Terbaru Section */
+.artikel-terbaru {
+    background-color: rgb(245, 202, 224);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.artikel-terbaru h2 {
+    color: #cf8787;
+    margin-bottom: 10px;
+}
+
+.artikel-terbaru ul {
+    list-style: none;
+    padding: 0;
+}
+
+.artikel-terbaru ul li {
+    margin-bottom: 10px;
+}
+
+.artikel-terbaru ul li a {
+    color: #ff85ba;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.artikel-terbaru ul li a:hover {
+    color: #f83d9a;
+}
+
+/* Aside Styling */
+aside {
+    width: 30%;
+    padding: 20px;
+    margin-left: 20px;
+    float: right;
+    background-color: rgb(245, 202, 224);
+    border-radius: 10px;
+    font-style: italic;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ffc5c5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
